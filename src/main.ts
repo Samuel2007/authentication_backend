@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 import { config as dotenvConfig } from 'dotenv';
 
 // Load environment variables from .env into process.env
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call
 dotenvConfig();
 
 async function bootstrap() {
